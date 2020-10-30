@@ -22,8 +22,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// узнать высоту навбара
-// при прокрутке окна на высоту навбара добавить к навбару класс фиксд
-
-// нужно получить навбар
-// его высоту
+// Date in footer
+const date = document.getElementById("date");
+const now = new Date();
+date.textContent = now.getFullYear();
